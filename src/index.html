@@ -9,7 +9,9 @@
 </head>
 
 <body>
-    <h1>Contacts</h1>
+    <h1>Address Book</h1>
+    <div class="row">
+    <div type="contacts" class="column" id="contacts"><h2>Contacts</h2>
     <button id="add-contact">Add Contact</button>
 
     <form id="new-contact-form">
@@ -27,8 +29,9 @@
 <input type="text" id="twitter" name="twitter">
 <input type="submit" id="submit" value="Save contact">
     </form>
-    <div id="contact-list"></div>
+</div>
+    <div type="contact-list" class="column" id="contact-list"><h2>Contact List</h2></div>
     <script src="./assets/js/app.js"></script>
-    
+</div>
 </body>
 </html>
